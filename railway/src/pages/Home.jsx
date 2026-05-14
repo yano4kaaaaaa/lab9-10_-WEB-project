@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <div className={styles.page}>
-      <h1 className={styles.title}>🚂 Залізничні квитки</h1>
+      <h1 className={styles.title}> Залізничні квитки</h1>
       <p className={styles.subtitle}>Знайди свій рейс і забронюй місце</p>
       <input
         className={styles.search}
