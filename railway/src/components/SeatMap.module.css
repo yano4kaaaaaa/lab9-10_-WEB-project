@@ -1,0 +1,28 @@
+.wrapper { margin-bottom: 28px; }
+.wrapper h3 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: #1a202c; }
+.legend { display: flex; gap: 16px; margin-bottom: 14px; font-size: 13px; }
+.free::before, .selected::before, .booked::before {
+  content: "■ ";
+}
+.free::before { color: #48bb78; }
+.selected::before { color: #4299e1; }
+.booked::before { color: #fc8181; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 44px);
+  gap: 8px;
+}
+.seat {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.seatFree { background: #c6f6d5; color: #276749; }
+.seatFree:hover { background: #9ae6b4; }
+.seatSelected { background: #bee3f8; color: #2b6cb0; }
+.seatBooked { background: #fed7d7; color: #c53030; cursor: not-allowed; }
