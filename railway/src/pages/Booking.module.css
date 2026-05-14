@@ -1,0 +1,15 @@
+.page { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
+.back {
+  background: none;
+  border: none;
+  color: #005baf;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.back:hover { text-decoration: underline; }
+.title { font-size: 28px; font-weight: 800; color: #1a202c; }
+.sub { color: #718096; margin-bottom: 28px; }
+.selected { font-size: 15px; color: #4a5568; margin-bottom: 16px; }
+.error { text-align: center; padding: 60px; font-size: 20px; color: #e53e3e; }
