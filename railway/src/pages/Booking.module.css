@@ -9,7 +9,7 @@
   padding: 0;
 }
 .back:hover { text-decoration: underline; }
-.title { font-size: 28px; font-weight: 800; color: #1a202c; }
+.title { font-size: 28px; font-weight: 800; color: #005baf; }
 .sub { color: #718096; margin-bottom: 28px; }
 .selected { font-size: 15px; color: #4a5568; margin-bottom: 16px; }
 .error { text-align: center; padding: 60px; font-size: 20px; color: #e53e3e; }

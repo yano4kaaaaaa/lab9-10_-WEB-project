@@ -50,7 +50,7 @@ function Booking() {
       seats: selectedSeats,
       passenger: formData,
     });
-    toast.success(`✅ Квиток заброньовано! Місця: ${selectedSeats.join(", ")}`);
+    toast.success(`Квиток заброньовано! Місця: ${selectedSeats.join(", ")}`);
     setTimeout(() => navigate("/"), 2000);
   };
 
